@@ -114,6 +114,16 @@ interface PickerOptions {
      */
     pickerToolBarBg?: number[]
 
+     /**
+     * The Ellipsis will show when over this option
+     *
+     * Accepts values as a number
+     *
+     * @type {number}
+     * @memberof PickerOptions
+     */
+    pickerTextEllipsisLen?: number;
+
     /**
      * Background color of the picker
      *
